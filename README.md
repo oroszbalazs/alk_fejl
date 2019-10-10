@@ -5,7 +5,7 @@ Egy webáruház megvalósítása, amely tartalmaz egy admin felületet, ahol leh
 
 ## Funkcionális követelmények:
 * Vendégként szeretném megtekinteni az elérhető termékek listáját.
-* Vendégként szeretnék regisztrálni.
+* Vendégként szeretnék regisztrálni/belépni.
 * Felhasználóként szeretnék termékeket a kosárba tenni, majd ezeket megrendelni.
 * Adminként szeretnék terméket hozzáadni a webáruházhoz.
 * Adminként szeretnék teméket törölni a webáruházból.
