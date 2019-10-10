@@ -1,7 +1,7 @@
 # Webáruház
 
 ## Cél:
-Egy webáruház megvalósítása, amely tartalmaz egy admin felületet, ahol lehet termékeket törölni, hozzáadni, a leadott rendeléseket megtekinteni.
+Egy webáruház megvalósítása, amely tartalmaz egy admin felületet, ahol lehet termékeket törölni, hozzáadni, módosítani, illetve a leadott rendeléseket megtekinteni, ezek státuszát változtatni. Bejelentkezett felhasználóként lehet rendelést leadni. Vendégként csak böngészni lehet a termékek között.
 
 ## Funkcionális követelmények:
 * Vendégként szeretném megtekinteni az elérhető termékek listáját.
@@ -16,8 +16,9 @@ Egy webáruház megvalósítása, amely tartalmaz egy admin felületet, ahol leh
 * Felhasználóbarát, ergonomikus elrendezés és kinézet.
 * Gyors működés.
 * Biztonságos működés: jelszavak tárolása, funkciókhoz való hozzáférés.
+* A termékek szűrhetősége. (?)
 
 ## Szerepkörök:
 * Vendég: meg tudja tekinteni a termékeket, de rendelni nem tud. Tud regisztálni, illetve bejelentkezni.
 * Felhasználó: Tud termékeket a kosárba helyezni, illetve rendelést leadni.
-* Admin: Tudja kezelni a termékek listáját, megtekintheti a leadott rendeléseket és ezek státuszát meg tudja változtatni.
+* Admin: Tudja kezelni (törlés, hozzáadás, módosítás) a termékek listáját, megtekintheti a leadott rendeléseket és ezek státuszát meg tudja változtatni.
