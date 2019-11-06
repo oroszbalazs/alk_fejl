@@ -8,8 +8,8 @@ Egy webáruház megvalósítása, amely tartalmaz egy admin felületet, ahol leh
 * **Vendégként** szeretnék regisztrálni/belépni.
 * **Felhasználóként** szeretnék termékeket a kosárba tenni, majd ezeket megrendelni.
 * **Adminként** szeretnék terméket hozzáadni a webáruházhoz.
-* **Adminként** szeretnék teméket törölni a webáruházból.
-* **Adminként** szeretnék teméket módosítani a webáruházban.
+* **Adminként** szeretnék terméket törölni a webáruházból.
+* **Adminként** szeretnék terméket módosítani a webáruházban.
 * **Adminként** meg szeretném tekinteni a bejövő rendeléseket, és ezek státuszát megváltoztatni.
 
 ## Nem funkcionális követelmények:
