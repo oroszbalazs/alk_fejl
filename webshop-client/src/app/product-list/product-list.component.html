@@ -1,0 +1,12 @@
+<h2>Product list</h2>
+
+<mat-nav-list>
+    <a *ngFor="let product of products">
+
+        <p matLine>{{ product.name }}, {{ product.price }} Ft</p>
+        <div *ngIf="authService.isLoggedIn" (click)="toBasket(product)"><button mat-button>Add to basket</button>
+        </div>
+
+
+    </a>
+</mat-nav-list>

@@ -1,0 +1,37 @@
+<mat-toolbar color="accent">
+    <div *ngIf="authService.isLoggedIn">
+
+        <button mat-button (click)="logout()" routerLink="/login">
+            <mat-icon>home</mat-icon>
+            Logout
+        </button>
+
+    </div>
+
+
+    <div *ngIf="!authService.isLoggedIn">
+
+        <button mat-button routerLink="/login">
+            <mat-icon>home</mat-icon>
+            Login
+        </button>
+
+    </div>
+
+
+
+    <span class="fill-remaining-space" fxHide="false" fxHide.gt-sm></span>
+    <div fxLayout="row" fxShow="false" fxShow.gt-sm>
+        <button mat-button routerLink="/products">Products</button>
+        <button mat-button routerLink="/basket">Basket</button>
+    </div>
+    <button mat-icon-button [matMenuTriggerFor]="menu" fxHide="false" fxHide.gt-sm>
+        <mat-icon>menu</mat-icon>
+    </button>
+</mat-toolbar>
+<mat-menu xPosition="before" #menu="matMenu">
+    <button mat-menu-item routerLink="/products">Products</button>
+    <button mat-menu-item routerLink="/basket">Basket</button>
+</mat-menu>
+
+<router-outlet></router-outlet>
